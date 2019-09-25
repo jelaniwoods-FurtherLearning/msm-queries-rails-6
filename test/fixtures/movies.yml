@@ -1,17 +1,25 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  year: 1
-  duration: 1
-  description: MyText
-  image: MyString
+space_jam:
+  title: "Space Jam"
+  year: 2000
+  duration: 180
+  description: "Come on and SLAM!"
+  image: "none"
   director_id: 1
 
-two:
-  title: MyString
-  year: 1
-  duration: 1
-  description: MyText
-  image: MyString
+space_jam_sequel:
+  title: "Space Jam 2: The Revival"
+  year: 2010
+  duration: 180
+  description: "We've SLAMed... now it's time to JAM."
+  image: "none"
   director_id: 1
+
+the_dark_knight:
+  title: "Batman: The Dark Knight"
+  year: 2004
+  duration: 90
+  description: "Batman gets stuck in medievil times."
+  image: "you wish"
+  director_id: 2
